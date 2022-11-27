@@ -53,17 +53,17 @@ public class Pizza {
     }
 
     public String getBill(){
-        if(isVeg)    System.out.print("Base Price Of The Pizza: 300\n");
-         else        System.out.print("Base Price Of The Pizza: 400\n");
+        if(isVeg)    System.out.print("Base Price Of The Pizza: 300 \n");
+         else        System.out.print("Base Price Of The Pizza: 400 \n");
 if(extracheese)  System.out.print("Extra Cheese Added: 80\n");
 if(extratopping) {
-    if(isVeg)  System.out.print("Extra Toppings Added: 70\n");
+    if(isVeg)  System.out.print("Extra Toppings Added: 70 \n");
 
-    else  System.out.print("Extra Toppings Added: 120\n");
+    else  System.out.print("Extra Toppings Added: 120 \n");
 }
-if(takeaway)         System.out.print("Paper bag Added: 20\n");
+if(takeaway)         System.out.print("Paper bag Added: 20 \n");
 
-        bill = "Total Price: "+this.getPrice()+"\n";
+        bill = "Total Price: "+this.getPrice()+" \n";
           return bill;
     }
 }
