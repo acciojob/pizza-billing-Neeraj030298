@@ -61,7 +61,7 @@ if(extratopping) {
 
     else  System.out.println("Extra Toppings Added: 120");
 }
-if(takeaway)         System.out.println("Paperbag Added: 20");
+if(takeaway)         System.out.println("Paper bag Added: 20");
 
         bill = "Total Price: "+this.getPrice()+"\n";
           return bill;
