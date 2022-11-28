@@ -8,6 +8,7 @@ public class Pizza {
     boolean extracheese = false;
     boolean extratopping = false;
     boolean takeaway = false;
+    boolean isbill = false;
 
     public Pizza(Boolean isVeg) {
         this.isVeg = isVeg;
@@ -53,6 +54,8 @@ public class Pizza {
     }
 
     public String getBill(){
+        if(isbill==true) return "";
+        isbill =true;
         if(isVeg)    System.out.print("Base Price Of The Pizza: 300 \n");
          else        System.out.print("Base Price Of The Pizza: 400 \n");
 if(extracheese)  System.out.print("Extra Cheese Added: 80\n");
